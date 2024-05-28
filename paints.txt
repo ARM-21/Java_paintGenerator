@@ -1,0 +1,5 @@
+1234567890,DreamColor,Serene Blue,Satin,15.99
+9876543210,EverLast,Crisp White,Flat,12.49
+0001112223,EcoShield,Vibrant Green,Eggshell,24.95
+5678901234,ProFinish,Deep Charcoal,Gloss,18.75
+2345678901,CozyHome,Warm Beige,Semi-Gloss,13.29
