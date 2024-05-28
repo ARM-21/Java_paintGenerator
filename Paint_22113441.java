@@ -1,4 +1,4 @@
-public class DetailsOfPaint {
+public class Paint {
     private String barcode;
     private String brand;
     private String color;
@@ -45,7 +45,7 @@ public class DetailsOfPaint {
         return pricePerLiter;
     }
 
-    public DetailsOfPaint(String barcode, String brand, String color, String sheen, double pricePerLiter) {
+    public Paint(String barcode, String brand, String color, String sheen, double pricePerLiter) {
             this.barcode = barcode;
             this.brand = brand;
             this.color = color;
