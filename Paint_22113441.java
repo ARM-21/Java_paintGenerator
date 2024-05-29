@@ -1,9 +1,17 @@
-public class Paint {
+public class Paint_22113441 {
     private String barcode;
     private String brand;
     private String color;
     private String sheen;
     private double pricePerLiter;
+
+    public Paint_22113441(String barcode, String brand, String color, String sheen, double pricePerLiter) {
+        this.barcode = barcode;
+        this.brand = brand;
+        this.color = color;
+        this.sheen = sheen;
+        this.pricePerLiter = pricePerLiter;
+    }
 
     public void setBarcode(String barcode) {
         this.barcode = barcode;
@@ -45,13 +53,7 @@ public class Paint {
         return pricePerLiter;
     }
 
-    public Paint(String barcode, String brand, String color, String sheen, double pricePerLiter) {
-            this.barcode = barcode;
-            this.brand = brand;
-            this.color = color;
-            this.sheen = sheen;
-            this.pricePerLiter = pricePerLiter;
-        }
+
 
 
 

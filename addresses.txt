@@ -1,0 +1,5 @@
+1,77,Wells St,Redfern,NSW,2016
+2,34,Edward St,Darlington,NSW,2008
+3,59,Shepherd St,Chippendale,NSW,2008
+4,1003b/89,Bay St,Glebe,NSW,2037
+5,1,dfsf,dsfsdf,wa,1223

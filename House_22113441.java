@@ -1,13 +1,18 @@
-public class House {
-        private String houseId; // Assuming a unique identifier for the house
-        private double squareMetresPerHour; // Purpose unclear without context
-        private double squareMetresPerLitre; // Purpose unclear without context
+public class House_22113441 {
+        private int houseId;
+        private double squareMetresPerHour;
+        private double squareMetresPerLitre;
         private String notes;
-        private Address address; // Has-a relationship with Address class
 
-        // Getters, setters, and constructor (omitted for brevity)
+        // Getters, setters, and constructor
+      public House_22113441(int houseId, double squareMetersPerHour, double squareMetersPerLitre, String notes) {
+            this.houseId = houseId;
+            this.squareMetresPerHour = squareMetersPerHour;
+            this.squareMetresPerLitre = squareMetersPerLitre;
+            this.notes = notes;
+        }
 
-        public String getHouseId() {
+    public int getHouseId() {
             return houseId;
         }
 
@@ -35,19 +40,9 @@ public class House {
         this.notes = notes;
     }
 
-    public void setHouseId(String houseId) {
-            this.houseId = houseId;
-        }
-
-        // Similar methods for other fields
-
-        public Address getAddress() {
-            return address;
-        }
-
-        public void setAddress(Address address) {
-            this.address = address;
-        }
+    public void setHouseId(int houseId) {
+        this.houseId = houseId;
+    }
 
 
 }
